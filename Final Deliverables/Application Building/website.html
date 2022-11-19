@@ -6,32 +6,35 @@
     
     <body>
         <form name="form", method="POST", style="text-align: center;">
-            <br>
-            sensor_2: <input type="number" name="sensor_2", placeholder="Enter weight in sensor_2"/>
+            <br><br><br>
+		  <br><br>
+		  cycles: <input type="number" min = "1" max="190" name="cycles", placeholder="Enter cycles-"/>
+		  <br><br>
+            sensor_2: <input type="number" min="641.20" max="644.60" step=0.01 name="sensor_2", placeholder="Enter value of  sensor_2"/>
             <br><br>
-		  sensor_3: <input type="number" name="sensor_3", placeholder="Enter weight in sensor_3"/>
+		  sensor_3: <input type="number" min="1571.04" max="1616.91" step=0.01 name="sensor_3", placeholder="Enter value of  sensor_3"/>
             <br><br>
-		  sensor_4: <input type="number" name="sensor_4", placeholder="Enter weight in sensor_4"/>
+		  sensor_4: <input type="number" min="1382.25" max="1441.49" step=0.01 name="sensor_4", placeholder="Enter value of  sensor_4"/>
             <br><br>
-		  sensor_7: <input type="number" name="sensor_7", placeholder="Enter weight in sensor_7"/>
+		  sensor_7: <input type="number" min="552.48" max="555.02" step=0.01 name="sensor_7", placeholder="Enter value of  sensor_7"/>
             <br><br>
-		  sensor_8: <input type="number" name="sensor_8", placeholder="Enter weight in sensor_8"/>
+		  sensor_8: <input type="number" min="2387.97" max="2388.11" step=0.01 name="sensor_8", placeholder="Enter value of  sensor_8"/>
             <br><br>
-		  sensor_11: <input type="number" name="sensor_11", placeholder="Enter weight in sensor_11"/>
+		  sensor_11: <input type="number" min="47.02" max="47.92" step=0.01 name="sensor_11", placeholder="Enter value of  sensor_11"/>
             <br><br>
-		  sensor_12: <input type="number" name="sensor_12", placeholder="Enter weight in sensor_12"/>
+		  sensor_12: <input type="number" min="520.61" max="523.05" step=0.01 name="sensor_12", placeholder="Enter value of sensor_12"/>
             <br><br>
-		  sensor_13: <input type="number" name="sensor_13", placeholder="Enter weight in sensor_13"/>
+		  sensor_13: <input type="number" min="2387.98" max="2388.12" step=0.01 name="sensor_13", placeholder="Enter value of sensor_13"/>
             <br><br>
-		  sensor_15: <input type="number" name="sensor_15", placeholder="Enter weight in sensor_15"/>
+		  sensor_15: <input type="number" min="8.32" max="8.50" step=0.01 name="sensor_15", placeholder="Enter value of sensor_15"/>
             <br><br>
-		  sensor_17: <input type="number" name="sensor_17", placeholder="Enter weight in sensor_17"/>
+		  sensor_17: <input type="number" min="390.01" max="396.01" step=0.01 name="sensor_17", placeholder="Enter value of sensor_17"/>
             <br><br>
-		  sensor_20: <input type="number" name="sensor_20", placeholder="Enter weight in sensor_20"/>
+		  sensor_20: <input type="number" min="38.51" max="39.25" step=0.01 name="sensor_20", placeholder="Enter value of sensor_20"/>
             <br><br>
-		  sensor_21: <input type="number" name="sensor_21", placeholder="Enter weight in sensor_21"/>
+		  sensor_21: <input type="number" min="23.11" max="23.57" step=0.01 name="sensor_21", placeholder="Enter value of sensor_21"/>
             <br><br>
-            <button value="Submit">Run</button><button value="Random">Random</button>
+            <button value="Submit">Run</button>
         </form>
         <p style="text-align: center;">{{ output }}</p>
     </body>
